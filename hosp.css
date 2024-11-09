@@ -1,0 +1,11 @@
+.hd{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 21, 21);
+    text-underline-offset: 5px;
+}
+
+.poi{
+   background-image: linear-gradient(to left,red,green);
+}
