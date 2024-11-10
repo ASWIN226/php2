@@ -42,8 +42,9 @@ body{
     transform: translateX(100px);
 }
 
-.phd h1{
+.phd{
     color: red;
+  
 }
 
 .inp{
@@ -75,3 +76,69 @@ body{
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
+
+.sbmt{
+    background-color: red;
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    transform: translateX(20px);
+    opacity: 0.6;
+
+    background-color: black;
+    font-size: 17px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.samp{
+    
+    position: relative;
+    top: -355px;
+    left: 550px;
+  
+}
+
+.sl{
+
+    height: 40px;
+    width: 370px;
+ 
+    border: none;
+    border-radius: 20px;
+ 
+
+    color:white;
+    font-size: 17px;
+    font-style: italic;
+
+    font-weight: bold;
+    background-color: black;
+    opacity: 0.6;
+    text-indent: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    
+}
+
+.tk{
+    background-color: aqua;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 10px;
+    color:white;
+    font-size: 17px;
+    font-style: italic;
+
+    font-weight: bold;
+    text-indent: 5px;
+    resize: none;
+}
+
+.tk:focus{
+    outline: none;
+}
+
+

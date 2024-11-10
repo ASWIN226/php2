@@ -21,11 +21,29 @@
 
         </table>
 
+       
+
 
 
 
 
     </form>
+    <input type="radio" id="i" onkeyup="pp()" name="n" value="male">
+   
+    <h1 id="dis"></h1>
+
+    <script>
+        function pp(){
+            var a=document.getElementById('i')
+            var c=document.getElementById('dis')
+            var b=a.value
+            c.textContent=b
+            console.log(b)
+
+        }
+      
+     
+    </script>
     
 </body>
 </html>
