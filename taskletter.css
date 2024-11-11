@@ -44,6 +44,7 @@ body{
 
 .phd{
     color: red;
+    transform: translateY(-200px);
   
 }
 
@@ -80,10 +81,13 @@ body{
 .sbmt{
     background-color: red;
     height: 50px;
-    width: 350px;
+    width: 800px;
     border-radius: 20px;
     transform: translateX(20px);
     opacity: 0.6;
+    position: relative;
+    left: 50px;
+    letter-spacing: 5px;
 
     background-color: black;
     font-size: 17px;
@@ -91,6 +95,16 @@ body{
     color: white;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.sbmt:hover{
+    background-color: black;
+    opacity: 1;
+    letter-spacing: 15px;
+    color: white;
+    transition-duration: 0.4s;
+    font-size: 25px;
+
 }
 
 .samp{
@@ -139,6 +153,10 @@ body{
 
 .tk:focus{
     outline: none;
+}
+
+.major{
+    transform: translateX(190px);
 }
 
 
